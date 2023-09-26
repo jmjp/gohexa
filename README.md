@@ -19,6 +19,14 @@ A estrutura do projeto é organizada da seguinte forma:
 
 Para usar este projeto, você pode clonar o repositório e executar o comando `go run` no diretório `cmd`.
 
+## O que contém neste projeto
+### banco de dados usados:
+- `mongodb`: Este diretório contém os pontos de entrada da aplicação (como a função main).
+- `redis`: Este diretório contém a lógica do negócio e os detalhes da implementação.
+- `postgres`: Este diretório contém arquivos de infraestrutura do projeto.
+### serviços de email:
+- `smtp`: Este diretório contém arquivos gerados pelo ORM ENT.
+
 ## Contribuições
 
 Contribuições para este projeto são bem-vindas. Por favor, abra uma issue ou um pull request se você quiser contribuir.
@@ -26,3 +34,4 @@ Contribuições para este projeto são bem-vindas. Por favor, abra uma issue ou 
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
