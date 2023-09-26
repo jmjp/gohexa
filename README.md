@@ -21,11 +21,11 @@ Para usar este projeto, você pode clonar o repositório e executar o comando `g
 
 ## O que contém neste projeto
 ### banco de dados usados:
-- `mongodb`: Este diretório contém os pontos de entrada da aplicação (como a função main).
-- `redis`: Este diretório contém a lógica do negócio e os detalhes da implementação.
-- `postgres`: Este diretório contém arquivos de infraestrutura do projeto.
-### serviços de email:
-- `smtp`: Este diretório contém arquivos gerados pelo ORM ENT.
+- `mongodb`
+- `redis`
+- `postgres`
+### demais serviços:
+- `smtp`
 
 ## Contribuições
 
